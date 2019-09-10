@@ -1,5 +1,6 @@
 package guru.springframework.sfgpetclinic.controllers;
 
+import guru.springframework.sfgpetclinic.ControllerTests;
 import guru.springframework.sfgpetclinic.fauxspring.Model;
 import guru.springframework.sfgpetclinic.fauxspring.ModelMap;
 import guru.springframework.sfgpetclinic.fauxspring.ModelMapImpl;
@@ -17,7 +18,7 @@ import java.util.Set;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 
-class VetControllerTest {
+class VetControllerTest implements ControllerTests {
 
     private SpecialtyService specialtyService;
     private VetService vetService;
